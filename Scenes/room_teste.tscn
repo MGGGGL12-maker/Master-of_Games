@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://cm360devrbq6h"]
+
+[ext_resource type="PackedScene" uid="uid://brp37vesjlfyr" path="res://Scenes/player.tscn" id="1_11y5b"]
+
+[node name="RoomTeste" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_11y5b")]
+position = Vector2(673, 351)
+scale = Vector2(3, 3)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0.666656, -27.3333)
+scale = Vector2(0.333333, 0.333333)
+zoom = Vector2(1.5, 1.5)
+position_smoothing_enabled = true
